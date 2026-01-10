@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-01-11T03:28:47 IST" name="Default suite" finished-at="2026-01-11T03:28:50 IST" duration-ms="2632">
+    <groups>
+    </groups>
+    <test started-at="2026-01-11T03:28:47 IST" name="Default test" finished-at="2026-01-11T03:28:50 IST" duration-ms="2632">
+      <class name="com.example.tests.TitleTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.example.tests.TitleTest@9d5509a]" started-at="2026-01-11T03:28:47 IST" name="setUp" finished-at="2026-01-11T03:28:49 IST" duration-ms="2123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateTitle()[pri:0, instance:com.example.tests.TitleTest@9d5509a]" started-at="2026-01-11T03:28:49 IST" name="validateTitle" description="Validate home page title" finished-at="2026-01-11T03:28:49 IST" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.tests.TitleTest@9d5509a]" started-at="2026-01-11T03:28:49 IST" name="tearDown" finished-at="2026-01-11T03:28:50 IST" duration-ms="448" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.example.tests.TitleTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
