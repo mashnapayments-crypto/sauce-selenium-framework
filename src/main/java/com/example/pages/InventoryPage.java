@@ -11,6 +11,9 @@ public class InventoryPage {
 
     @FindBy(css = "span.title")
     private WebElement titleLabel;
+    
+    // Use the title label as the products heading; the previous XPath sometimes fails to locate the element
+    // Keep a single source of truth for the heading
 
     public InventoryPage(WebDriver driver) {
         this.driver = driver;
@@ -20,5 +23,14 @@ public class InventoryPage {
     public String getTitle() {
         return titleLabel.getText();
     }
+    
+    public String getProductsHeading() {
+        return titleLabel.getText().trim();
+    }
+    
+	/*
+	 * public String getproductTitle() { return productLabel.getText(); }
+	 */
+    		
 }
  
